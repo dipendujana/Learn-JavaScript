@@ -50,3 +50,11 @@ const myFunction = function(){
 // Object (native and does not implement [[Call]])	"object"
 // Object (native or host and does implement [[Call]]) =>	"function"
 // Object (host and does not implement [[Call]]) =>	Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) & Heap(Non-Primitive)
+// stack a data ar eka clone jay
+// and
+//  Heap a puro data type ar Reference jay
