@@ -52,3 +52,30 @@ console.log(Object.values(tenderUser));
 console.log(Object.entries(tenderUser));
 
 console.log(tenderUser.hasOwnProperty('isLogeed'));
+
+
+//+++++++++++++++++++++++ Object de-structure  ++++++++++++++++//
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course  //courseInstructor ke instructor de-structure kora hoye che 
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {                                                 //  JSON formet on oject
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},                                              //  //  JSON formet on arrya
+    {}
+]
