@@ -13,12 +13,12 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-
+// ++++++++++++++++++++++++++ global and local scope 
 function one(){
     const username = "hitesh"
 
     function two(){
-        const website = "youtube"
+        const website = "youtube"        // {}  karli bakes ar modhhe thakne local r baire thakle global
         console.log(username);
     }
     // console.log(website);
