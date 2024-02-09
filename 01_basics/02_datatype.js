@@ -21,4 +21,5 @@ let state;
 // object 
 console.log(typeof undefinen) // undefinen
 console.log(typeof null) //object
+console.log(typeof symbol);
 
