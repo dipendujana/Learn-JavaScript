@@ -6,7 +6,7 @@ const mySym = Symbol("Key2")
 
 const JsUser = {
     name: "Dipendu",
-    "full name": "Dipendu Jana",// ay khatre . (dot) diye object ke asses kora jay na tay [ ] diye asses korte hoy
+    "full name": "Dipendu Jana",// ay khatre . (dot) diye object ke acces kora jay na tay [ ] diye asses korte hoy
     age: 21,
     [mySym]: "myKey1",
     location: "Haldia",
@@ -15,24 +15,29 @@ const JsUser = {
     isLoginDays: ["Mon Day , Sun Day"]
 }
 
-console.log(JsUser.isLoginDays)
-console.log(JsUser["isLoginDays"])
-console.log(JsUser["full name"]);
-console.log(JsUser[mySym]);
+// console.log(JsUser.isLogeedIn)
+// console.log(JsUser.isLoginDays)
+// console.log(JsUser["full name"]);
+// console.log(JsUser[mySym]);
 
 JsUser.email = "dipendu@chatgpt.com"
-Object.freeze(JsUser)
+//  Object.freeze(JsUser)
 JsUser.email = "dipendu@microsoft.com"
-console.log(JsUser);
+//  console.log(JsUser.email);
 
-// bujte parini
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
-}
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
-}
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+ JsUser.greeting = function(){
+     console.log("Hello JS user");
+ }
+ JsUser.greetingTwo = function(){
+     console.log(`Hello Js user,${this.name}`);
+ }
+
+ console.log(JsUser.greeting());
+  console.log(JsUser.greetingTwo());
+
+  JsUser.greetingthree = function(){
+    console.log(`Js user email,${this["full name"]}`);
+  }
+  console.log(JsUser.greetingthree());
