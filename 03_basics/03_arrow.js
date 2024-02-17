@@ -33,7 +33,7 @@ const chai = () => {
 // 
 
 // const addTwo = (num1 , num2) => {
-//     return num1 + num2              // Basics Arrow function
+//     return num1 + num2              // Basics Arrow function //explisite return
 // }
 
 //const addTwo = (num1 , num2) =>  num1 + num2       // this is the sentex of impleset return

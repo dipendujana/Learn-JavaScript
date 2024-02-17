@@ -53,6 +53,6 @@ function addone(num){
 
 
 addTwo(5)
-const addTwo = function(num){         //ekhane error dibe karaon variable name diye diclaer korar por  variable ar opore addTwo kore call kora jabe na
+const addTwo = function(num){     //eta Expression       //ekhane error dibe karaon variable name diye diclaer korar por  variable ar opore addTwo kore call kora jabe na
     return num + 2
 }
