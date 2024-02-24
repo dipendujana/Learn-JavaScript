@@ -42,8 +42,9 @@ const myFunction = function(){
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 // Type of val	           Result
+
 // Undefined	         "undefined"
-// Null	             "object"
+// Null	                 "object"
 // Boolean	             "boolean"
 // Number	             "number"
 // String               "string"

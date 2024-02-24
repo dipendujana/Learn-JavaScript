@@ -2,19 +2,19 @@
 Learning Javascript on YouTube
 
 
-## 1. What are the different data types in JavaScript? (Number, String, Boolean, Object, etc.)
+# 1. What are the different data types in JavaScript? (Number, String, Boolean, Object, etc.)
 
 JavaScript has several fundamental data types:
 
-# Number: Represents numerical values (integers, floating-point numbers).
-# String: Represents sequences of characters (text).
-# Boolean: Represents logical values (true or false).
-# Object: Stores collections of key-value pairs.
-# Array: Ordered lists of values, accessed by index.
-# Function: Reusable blocks of code that perform actions.
-# Undefined: Represents a variable with no assigned value.
-# Null: Represents the intentional absence of a value.
-# Symbol: Unique and immutable identifiers.
+#### Number: Represents numerical values (integers, floating-point numbers).
+#### String: Represents sequences of characters (text).
+#### Boolean: Represents logical values (true or false).
+#### Object: Stores collections of key-value pairs.
+#### Array: Ordered lists of values, accessed by index.
+#### Function: Reusable blocks of code that perform actions.
+#### Undefined: Represents a variable with no assigned value.
+#### Null: Represents the intentional absence of a value.
+#### Symbol: Unique and immutable identifiers.
 
 ## 2. How do you declare a variable in JavaScript? (Using var, let, or const?)
 

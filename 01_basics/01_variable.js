@@ -15,7 +15,7 @@ accountPassword = "21212121"
 accountCity = "Bengaluru"
 
 
-console.log(accountEmail);
+// console.log(accountCity);
 
 // console.log(accountId);
 
@@ -26,3 +26,17 @@ because of issue in block scope and functional scope
 
 
 // console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+
+
+
+const myCity = "Haldia"
+let myName = "dipendu"
+var myNumber = 9876543210
+
+myNumber = 1234567890
+
+
+console.log(myCity);
+console.log(myNumber);
+console.log(myName);
