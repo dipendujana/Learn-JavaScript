@@ -23,24 +23,28 @@ You can declare variables using var, let, or const:
 var: Old-school declaration, has scope issues, avoid using it nowadays.
 let: Modern declaration, block-scoped (usable within specific code blocks).
 const: Modern declaration, immutable (value cannot be changed after assignment).
-3. What is the difference between var, let, and const?
 
-Scope: var is globally or function-scoped, let and const are block-scoped.
-Reassignment: var and let can be reassigned, const cannot.
-4. How do you write comments in JavaScript?
+## 3. What is the difference between var, let, and const?
 
-Single-line comments: // This is a single-line comment
-Multi-line comments: /* This is a multi-line comment */
-5. What is an operator? Give examples of different types of operators (arithmetic, comparison, logical).
+### Scope: var is globally or function-scoped, let and const are block-scoped.
+### Reassignment: var and let can be reassigned, const cannot.
 
-Operators perform operations on values. Common types include:
+## 4. How do you write comments in JavaScript?
 
-Arithmetic: +, -, *, /, % (modulo)
-Comparison: ==, === (strict equality), !=, !== (strict inequality), <, >, <=, >=
-Logical: && (and), || (or), ! (not)
-6. What is a conditional statement? (e.g., if, else if, else)
+#### Single-line comments: // This is a single-line comment
+#### Multi-line comments: /* This is a multi-line comment */
 
-Conditional statements control program flow based on conditions:
+## 5. What is an operator? Give examples of different types of operators (arithmetic, comparison, logical).
+
+### Operators perform operations on values. Common types include:
+
+#### Arithmetic: +, -, *, /, % (modulo)
+#### Comparison: ==, === (strict equality), !=, !== (strict inequality), <, >, <=, >=
+#### Logical: && (and), || (or), ! (not)
+
+## 6. What is a conditional statement? (e.g., if, else if, else)
+
+### Conditional statements control program flow based on conditions:
 
 JavaScript
 if (condition) {
@@ -51,14 +55,16 @@ if (condition) {
   // Code to execute if all conditions are false
 }
 Use code with caution.
-7. What is a loop? (e.g., for, while)
+
+## 7. What is a loop? (e.g., for, while)
 
 Loops repeatedly execute a block of code:
 
-for: Loops a specific number of times based on a counter.
-while: Loops as long as a condition is true.
-do...while: Similar to while, but the loop body executes at least once.
-8. How do you access elements in an array?
+#### for: Loops a specific number of times based on a counter.
+#### while: Loops as long as a condition is true.
+#### do...while: Similar to while, but the loop body executes at least once.
+
+## 8. How do you access elements in an array?
 
 Use the index of the element:
 
@@ -66,7 +72,8 @@ JavaScript
 const myArray = ["apple", "banana", "cherry"];
 const firstElement = myArray[0]; // "apple"
 Use code with caution.
-9. How do you create and access properties of an object?
+
+## 9. How do you create and access properties of an object?
 
 Use dot notation or bracket notation:
 
@@ -75,29 +82,32 @@ const person = { name: "John", age: 30 };
 const name = person.name; // "John"
 const age = person["age"]; // 30
 Use code with caution.
-10. What is the difference between == and ===?
+
+## 10. What is the difference between == and ===?
 
 ==: Loose equality, compares values after type coercion (e.g., "1" == 1 is true).
 ===: Strict equality, compares both value and type (e.g., "1" === 1 is false).
 DOM Manipulation:
 
-11. How do you select an element by its ID in JavaScript?
+## 11. How do you select an element by its ID in JavaScript?
 
 JavaScript
 const element = document.getElementById("myElementId");
 Use code with caution.
-12. How do you change the text content of an element?
+## 12. How do you change the text content of an element?
 
 JavaScript
 element.textContent = "New text content";
 Use code with caution.
-13. How do you add or remove CSS classes to an element?
+
+## 13. How do you add or remove CSS classes to an element?
 
 JavaScript
 element.classList.add("myClass"); // Add class
 element.classList.remove("myClass"); // Remove class
 Use code with caution.
-14. How do you listen for events (e.g., click, hover) on an element?
+
+## 14. How do you listen for events (e.g., click, hover) on an element?
 
 JavaScript
 element.addEventListener("click", function() {
