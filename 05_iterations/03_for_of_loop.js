@@ -34,3 +34,7 @@ const myObject = {
     
 // }
 
+ let myArr = [1,2,3,4,5,]
+ for (const num of myArr) {
+  console.log(num);
+ }
