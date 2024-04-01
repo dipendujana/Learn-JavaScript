@@ -1,6 +1,10 @@
 # Learn-JavaScript
 Learning Javascript on YouTube
+// Primitive 
+// 7 type: String,Number,Boolearn,null,undefined,symbol,BigInt
 
+// Reference (Non Prinimitive)
+// Array, Object , function 
 
 # 1. What are the different data types in JavaScript? (Number, String, Boolean, Object, etc.)
 
