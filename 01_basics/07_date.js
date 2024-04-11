@@ -17,7 +17,8 @@ let myDate = new Date()
 // console.log(Math.floor(Date.now()/1000)); //value flotting point a ale take single unit a nite 
 
  let newDate = new Date()
-//  console.log(newDate);
+ console.log(newDate);
+ console.log(newDate);
 //  console.log(newDate.getMonth() + 1);
 // console.log(newDate.getDay());
 
