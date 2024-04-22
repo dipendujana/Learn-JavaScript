@@ -6,7 +6,7 @@ console.log(3+
 console.log("Dipendu")
 
 let name = "Dipendu"
-let age = 18
+let age = 21
 let isLonggedIn = false
 let state;
 
