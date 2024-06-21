@@ -14,7 +14,7 @@ console.log(valueInNumber)
 let isLonggedIn = 1
 
 let booleanIsLoggedIn = Boolean(isLonggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 // 1 => treu; 0 => false
 // "" => false
@@ -23,8 +23,8 @@ console.log(booleanIsLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(someNumber)
-console.log(typeof stringNumber)
+// console.log(someNumber)
+// console.log(typeof stringNumber)
 
 
 // *********************** Operations ***********************
@@ -62,7 +62,7 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion

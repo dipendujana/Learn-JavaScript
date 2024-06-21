@@ -1,28 +1,28 @@
-const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "123456"
-accountCity = "Jaipur"
-let accountState;
+// const accountId = 144553
+// let accountEmail = "hitesh@google.com"
+// var accountPassword = "123456"
+// accountCity = "Jaipur"
+// let accountState;
 
-// accountId = 2 // not allowed
-// 
+// // accountId = 2 // not allowed
+// // 
 
 
-// 
+// // 
 
-accountEmail = "hc@hc.com"
-accountPassword = "21212121"
-accountCity = "Bengaluru"
+// accountEmail = "hc@hc.com"
+// accountPassword = "21212121"
+// accountCity = "Bengaluru"
 
 
 // console.log(accountCity);
 
-// console.log(accountId);
+// // console.log(accountId);
 
-/*
-Prefer not to use var
-because of issue in block scope and functional scope
-*/
+// /*
+// Prefer not to use var
+// because of issue in block scope and functional scope
+// */
 
 
 // console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
@@ -30,13 +30,42 @@ because of issue in block scope and functional scope
 
 
 
-const myCity = "Haldia"
-let myName = "dipendu"
-var myNumber = 9876543210
+// // const myCity = "Haldia"
+// // let myName = "dipendu"
+// // var myNumber = 9876543210
 
-myNumber = 1234567890
+// // myNumber = 1234567890
 
 
-console.log(myCity);
-console.log(myNumber);
-console.log(myName);
+// // console.log(myCity);
+// // console.log(myNumber);
+// // console.log(myName);
+
+
+
+
+
+// ---------------------------------------------------------------------------------
+
+const accountId = 1234;
+
+let accountEmail = "Haldia@gmail.com";
+
+var accountPassword = "1234";
+
+accountCity = "Haldia";
+
+let accountName;
+
+
+// modifaed 
+// accountId = 1234;
+accountEmail = "Kolkata@gmail.com"
+
+
+console.log(accountId);
+console.log(accountEmail);
+console.log(accountPassword);
+console.log(accountCity);
+console.log(accountName);
+

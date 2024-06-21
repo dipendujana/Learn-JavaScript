@@ -4,12 +4,16 @@ const repoCount = 5
 // console.log(name + repoCount + " Value");
 
 //  console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
-console.log(`Hi my name is : ${name} and my repo count is ${repoCount}`);
+// console.log(`Hi my name is : ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+    console.log(gameName[0]);
+    console.log(gameName.__proto__);
+    console.log(gameName.toUpperCase());
+    console.log(gameName.length);
+
+
 
 
 // console.log(gameName.length);
@@ -40,7 +44,7 @@ const newStringOne = "   hitesh    "
 
 
 
-let myName = "Dipendu"
-const age = 21
+let myName = "Dipendu";
+let age = 21
 
-console.log(`My name is ${myName} my age is ${age}`);
+console.log(`My name is: ${myName} & My age is ${age}`);

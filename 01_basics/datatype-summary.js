@@ -5,11 +5,14 @@
 // Array, Object , function 
 
 const outsideTemp = null
-console.log(outsideTemp);
+
+// console.log(outsideTemp);
 
 const id = Symbol('123')
+
 const anatherId = Symbol('123')
-console.log(id === anatherId) // symbol eki rokom dekte onke hote pare
+
+// console.log(id === anatherId) // symbol eki rokom dekte onke hote pare
 
 const bigNumner = 123647620289n
 
@@ -21,8 +24,10 @@ let myObj={
 }
 
 const myFunction = function(){
-    console.log("Hello World!");
+    // console.log("Hello World!");
 }
+
+ console.log(typeof bigNumner);
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -59,3 +64,28 @@ const myFunction = function(){
 // stack a data ar eka clone jay
 // and
 //  Heap a puro data type ar Reference jay
+
+
+
+let user = "Dipendu"
+
+let anatheruser = user
+
+anatheruser = " HIT"
+
+console.log(user)
+console.log(anatheruser);
+
+
+let userOne = {
+    email: "dipendu@google.com",
+    age : 19
+}
+let userTwo = userOne;
+
+userTwo.email = "dipendu@youtube.com"
+
+console.log(userOne.email);
+console.log(userTwo.email)
+
+
