@@ -5,10 +5,7 @@
 // let accountState;
 
 // // accountId = 2 // not allowed
-// // 
 
-
-// // 
 
 // accountEmail = "hc@hc.com"
 // accountPassword = "21212121"
@@ -24,44 +21,19 @@
 // because of issue in block scope and functional scope
 // */
 
-
 // console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
-
-
-
-
-// // const myCity = "Haldia"
-// // let myName = "dipendu"
-// // var myNumber = 9876543210
-
-// // myNumber = 1234567890
-
-
-// // console.log(myCity);
-// // console.log(myNumber);
-// // console.log(myName);
-
-
-
-
 
 // ---------------------------------------------------------------------------------
 
 const accountId = 1234;
-
 let accountEmail = "Haldia@gmail.com";
-
 var accountPassword = "1234";
-
 accountCity = "Haldia";
-
 let accountName;
-
 
 // modifaed 
 // accountId = 1234;
 accountEmail = "Kolkata@gmail.com"
-
 
 console.log(accountId);
 console.log(accountEmail);
