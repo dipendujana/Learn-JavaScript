@@ -27,7 +27,7 @@ const myFunction = function(){
     // console.log("Hello World!");
 }
 
- console.log(typeof bigNumner);
+//  console.log(typeof bigNumner);
 
 // Return type of variables in JavaScript
 // 1) Primitive Datatypes
@@ -71,10 +71,10 @@ let user = "Dipendu"
 
 let anatheruser = user
 
-anatheruser = " HIT"
+anatheruser = "HIT"
 
-console.log(user)
-console.log(anatheruser);
+//console.log(user) //Dipendu
+//console.log(anatheruser);//HIT
 
 
 let userOne = {
@@ -87,5 +87,3 @@ userTwo.email = "dipendu@youtube.com"
 
 console.log(userOne.email);
 console.log(userTwo.email)
-
-
