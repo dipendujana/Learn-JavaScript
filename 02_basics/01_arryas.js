@@ -4,12 +4,15 @@ const myArr = [0, 1, 2, 3, 4, 5]
 const myHeors = ["shaktiman", "naagraj"]
 
  const myArr2 = new Array(1, 2, 3, 4) //ay rokom vabeo arrya dicler kora jay
-console.log(myArr[1]);
+// console.log(myArr2[1]);
 // Array methods
 
 // myArr.push(10)
+// console.log(myArr);
 // myArr.push(7)
-// myArr.pop()
+myArr.pop()
+// console.log(myArr);
+
 
 
 
@@ -29,14 +32,14 @@ console.log(myArr[1]);
 
 // slice, splice
 
-// console.log("A ", myArr); // A  [ 0, 1, 2, 3, 4, 5 ]
-// const myn1 = myArr.slice(1, 3)  
+console.log("A ", myArr); // A  [ 0, 1, 2, 3, 4, 5 ]
+const myn1 = myArr.slice(1, 3)  
 
-// console.log(myn1);         // [ 1, 2 ]
-// console.log("B ", myArr); // B  [ 0, 1, 2, 3, 4, 5 ]
+console.log(myn1);         // [ 1, 2 ]
+console.log("B ", myArr); // B  [ 0, 1, 2, 3, 4, 5 ]
 
 
-// const myn2 = myArr.splice(1, 3)
-// console.log("C ", myArr);  // C  [ 0, 4, 5 ]  // slice print hobar por main arr tay change hoye jai
-// console.log(myn2); // [ 1, 2, 3 ]
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr);  // C  [ 0, 4, 5 ]  //splice operation a main arr tay change hoye jai
+console.log(myn2); // [ 1, 2, 3 ]
 
