@@ -1,31 +1,31 @@
-function sayMyName() {
-    console.log("D");
-    console.log("I");
-    console.log("P");
-    console.log("E");
-    console.log("N");
-    console.log("D");
-    console.log("U");
-}
-// sayMyName()
+// function sayMyName() {
+//     console.log("D");
+//     console.log("I");
+//     console.log("P");
+//     console.log("E");
+//     console.log("N");
+//     console.log("D");
+//     console.log("U");
+// }
+// // sayMyName()
 
- function addTwoNumbers(number1, number2){  // pera miter 
+//  function addTwoNumbers(number1, number2){  // pera miter 
 
-   console.log(number1 + number2);
-  }
-      addTwoNumbers(3,"a") //argument
+// //    console.log(number1 + number2);
+//   }
+//     //   addTwoNumbers(3,"a") //argument
 
 // function addTwoNumbers(number1, number2){  // pera miter 
 
-// // let result = number1 + number2
-// // return  result                    // note* return ar pore kono consol kaj kore na 
-//    return number1 + number2
+// let result = number1 + number2
+// return  result                   
+// return number1 + number2        // note* return ar pore kono consol kaj kore na 
 
 // }
 
-// const result = addTwoNumbers(3,5)  // argument
+// // const result = addTwoNumbers(3,5)  // argument
 
-// //console.log("Result:",result);
+// console.log("Result:",result);
 
 // //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
@@ -69,3 +69,148 @@ function sayMyName() {
 // }
 // console.log(returnSecendValue(myNewArrya));
 // console.log(returnSecendValue([200,300,400]));
+
+
+
+
+// ======================== Hitassh Sir code ===============================//
+
+
+function sayMyName(){
+    console.log("H");
+    console.log("I");
+    console.log("T");
+    console.log("E");
+    console.log("S");
+    console.log("H");
+}
+
+// sayMyName()
+
+// function addTwoNumbers(number1, number2){
+
+//     console.log(number1 + number2);
+// }
+
+function addTwoNumbers(number1, number2){
+
+    // let result = number1 + number2
+    // return result
+    return number1 + number2
+}
+
+const result = addTwoNumbers(3, 5)
+
+// console.log("Result: ", result);
+
+
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("hitesh"))
+
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+const user = {
+    username: "hitesh",
+    prices: 199
+}
+
+function handleObject(anyobject){
+    // console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
+
+
+
+function usercoco(coco){
+    let userOne = `${coco} just log in`
+    console.log(userOne);
+    return userOne
+    
+}
+// console.log(usercoco("cocoMaster"));
+// console.log(usercoco);
+
+function addTwonum(num1,num2){
+    console.log(num1+num2);
+}
+// addTwonum(20,10)
+// const sumofNumber = addTwonum(20,10) //30
+
+function addTwonum(num1,num2){
+    // console.log(num1+num2);
+    let sumof = (num1+num2)
+    return sumof
+}
+// addTwonum(20,10)
+// const sumofNumber = addTwonum(20,10) //empty
+const sumofNumber = addTwonum(20,10)
+// console.log(sumofNumber);
+console.log(addTwonum(20,10));
+
+function TCSuser(username){
+    return(`${username} just join`)
+}
+// console.log(TCSuser("Suman"));  //Suman just join
+// console.log(TCSuser());      //undefined just join
+// console.log(TCSuser("P"));      //P just join
+
+function TCSuser(username){
+    if (undefined===undefined) {
+        console.log("plase enter a username: ");
+        return
+    }
+    return(`${username} just join`)
+}
+
+// console.log(TCSuser()); //plase enter a username: 
+                           //undefined
+
+function TCSuser(username){
+    if (!username) {
+        console.log("plase enter a username: ");
+        return
+    }
+    return(`${username} just join`)
+}
+//  console.log(TCSuser());  //using ! syntex 
+
+function TCSuser(username = "sam"){     //defoult ekta value deba hole
+    if (!username) {
+        console.log("plase enter a username: ");
+        return
+    }
+    return(`${username} just join`)
+}
+ console.log(TCSuser("pratim"));  // value dile ager value ta rewrite hoye jabe
+
+ const TCSuserKolkata =(username) =>{
+    return(`${username} just log in `)
+ }
+console.log(TCSuserKolkata("Denver"));
