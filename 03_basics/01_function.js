@@ -144,7 +144,7 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-// console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue([200, 400, 500, 1000]));
 
 
 
@@ -172,7 +172,7 @@ function addTwonum(num1,num2){
 // const sumofNumber = addTwonum(20,10) //empty
 const sumofNumber = addTwonum(20,10)
 // console.log(sumofNumber);
-console.log(addTwonum(20,10));
+// console.log(addTwonum(20,10));
 
 function TCSuser(username){
     return(`${username} just join`)
@@ -208,9 +208,32 @@ function TCSuser(username = "sam"){     //defoult ekta value deba hole
     }
     return(`${username} just join`)
 }
- console.log(TCSuser("pratim"));  // value dile ager value ta rewrite hoye jabe
+//  console.log(TCSuser("pratim"));  // value dile ager value ta rewrite hoye jabe
 
  const TCSuserKolkata =(username) =>{
     return(`${username} just log in `)
  }
-console.log(TCSuserKolkata("Denver"));
+// console.log(TCSuserKolkata("Denver"));
+
+
+
+
+const userinput = {
+    name: "dipendu",
+    age: 22
+}
+function alluserinput(objectinput){
+    console.log(`User name is: ${objectinput.name} and age is ${objectinput.age}`);
+}
+// alluserinput(userinput)
+alluserinput({
+    name: "Bob",
+    age: 60
+})
+
+const arryais = [10,15,20]
+
+function returnsecondarray(getArrays){
+    return getArrays[2]
+}
+console.log(returnsecondarray(arryais));
