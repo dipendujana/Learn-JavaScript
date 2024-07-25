@@ -23,7 +23,7 @@ function one(){
     }
     // console.log(website);
 
-     two()
+    //  two()
 
 }
 
@@ -44,7 +44,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -52,7 +52,52 @@ function addone(num){
 
 
 
-addTwo(5)
+// addTwo(5)
 const addTwo = function(num){     //eta Expression       //ekhane error dibe karaon variable name diye diclaer korar por  variable ar opore addTwo kore call kora jabe na
     return num + 2
 }
+
+//=============================================//
+
+let x = 500; 
+
+if (1) {
+    let x = 10;
+    const y = 20;
+    var z = 30;
+    // console.log("Inner side: ",x); //Inner side:  10
+}
+
+// console.log(x); //500
+
+// ===============================================//
+// closure  
+// Lexical scoping
+
+function init() {
+    var name = "Dipendu"; 
+    function displayName() {
+      console.log(name); 
+    }
+    displayName();
+  }
+  init(); //Dipendu
+
+
+
+// ++++++++++++++++++ interesting ++++++++++++++++++
+//Hoisting
+console.log(addvalue(5))
+
+function addvalue(num){
+    return num + 1
+}
+
+
+
+// addTwovalue(5)
+const addTwovalue = function(num){     //eta Expression       //ekhane error dibe karaon variable name diye diclaer korar por  variable ar opore addTwo kore call kora jabe na
+    return num + 2
+}
+console.log(addTwovalue(5))
+  
