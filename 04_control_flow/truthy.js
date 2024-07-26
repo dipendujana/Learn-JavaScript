@@ -30,7 +30,8 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20
+val1 = null ?? 10 ?? 20 //10
+val1 = null ?? undefined ?? 20 //20
 
 
 
@@ -41,4 +42,4 @@ console.log(val1);
 // condition ? true : false
 
 const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+// iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
