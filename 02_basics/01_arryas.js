@@ -40,6 +40,6 @@ console.log("B ", myArr); // B  [ 0, 1, 2, 3, 4, 5 ]
 
 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr);  // C  [ 0, 4, 5 ]  //splice operation a main arr tay change hoye jai
+console.log("C ", myArr);  // C  [ 0, 4, 5 ]  //splice operation a main arr tay change hoye jai and amin arrya theke oi arrya ta beri jay ([ 0, 1, 2, 3, 4 ]) eyta theke ay ta => ([ 0, 4 ])
 console.log(myn2); // [ 1, 2, 3 ]
 
